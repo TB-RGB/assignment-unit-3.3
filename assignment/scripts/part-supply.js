@@ -110,7 +110,7 @@ let boxesFilled = 0;
 while (boxesFilled != 81) {
   parts -= 7;
   boxesFilled += 1;
-  // console.log(parts,boxesFilled);
+  console.log(parts,boxesFilled);
 }
 console.log("Parts remaining:", parts);
 console.log("Boxes filled:", boxesFilled);
