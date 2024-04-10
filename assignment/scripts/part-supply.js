@@ -44,7 +44,20 @@ console.log('6. Looping through supplyChanges to populate arrays with positive, 
 let positives = [];
 let negatives = [];
 let zeroes = [];
-
+for (i=0; i <= supplyChanges.length; i++) {
+  if (supplyChanges[i] > 0){
+    positives.push(supplyChanges[i]);
+  } 
+  if (supplyChanges[i] < 0){
+    negatives.push(supplyChanges[i]);
+  }
+  else if (supplyChanges[i] == 0){
+    zeroes.push(supplyChanges[i]);
+  }
+}
+console.log('Positives:', positives);
+console.log('Negatives:', negatives);
+console.log('Zeroes:', zeroes);
 
 
 
